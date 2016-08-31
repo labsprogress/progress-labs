@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+
+
+/*NAVBAR*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 1%;
+}
+li {
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Inconsolata', monospace;
+
+}
+li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-buttons {
+  text-align:center;
+  display:block;
+  font-family: 'Nunito', sans-serif;
+}
+
+a:visited, a:focus {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.right-nav {
+  padding-right: 2%;
+}
+
+
+/*ENDING OF NAVBAR*/
+
+
+
+
+
+.landing-text {
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+ h1 {
+ color: white;
+ font-family: 'Inconsolata', monospace;
+ text-align: center;
+  
+}
+
+h3 {
+ color: #5FCF80;
+ font-family: 'Inconsolata', monospace;
+ text-align: center;
+}
+
+.arrow {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
